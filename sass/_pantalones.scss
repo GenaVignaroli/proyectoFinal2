@@ -1,0 +1,105 @@
+body {
+	background-image: linear-gradient(to right, rgb(243, 122, 142), rgb(247, 247, 233));
+	font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes movimiento {
+    0%{font-size: 50px;}
+    25%{font-size: 52px;}
+    50%{font-size: 54px; }
+    75%{font-size: 56px;}
+    100%{font-size: 58px;}
+}
+
+.titulo {
+    border: 3px black solid;
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    animation-name: movimiento;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 4s;
+    animation-delay: 0ms;
+}
+
+h3 {
+    text-align: center;
+}
+.footer {
+    border: 3px black solid;
+    background-color: pink;
+}
+
+.banner {
+    background-image: linear-gradient(to left, rgb(247, 123, 144), rgb(247, 247, 244));
+    width: 90vw;
+    height: 90vh;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 
+    "blanca negra azul"
+    "roja verde none";
+}
+
+.blanca {
+    grid-area: blanca;
+    padding: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.negra {
+    grid-area: negra;
+    padding: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+.azul {
+    grid-area: azul;
+    padding: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+.roja {
+    grid-area: roja;
+    padding: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+.verde {
+    grid-area: verde;
+    padding: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    transition: all 1s;
+}
+
+.img:hover {
+    width: 200px;
+    height: 200px;
+}
+
+@media (min-width: 576px){
+    style.pantalones
+    {
+        margin-top: 0px;
+    }
+}

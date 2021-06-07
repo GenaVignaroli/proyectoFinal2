@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(243, 122, 142), rgb(253, 253, 246));
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    border: black 2px solid;
+    background-image: linear-gradient(to right, rgb(243, 122, 142), rgb(248, 248, 241));
+    width: 35vw;
+    height: 20vh;
+    margin: 20px;
+    padding: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 70px;
+}
+
+ul {
+    background-image: linear-gradient(to left, rgb(243, 122, 142), rgb(253, 253, 246));
+    border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+    width: 55vw;
+    height: 40vh;
+    margin: 30px;
+    padding: 60px;
+    font-size: 35px;
+
+}
+
+.italic {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.footer {
+    border: 3px black solid;
+    background-image: linear-gradient(to left, rgb(247, 123, 144), rgb(250, 250, 248));
+    width: 90vw;
+    height: 5vh;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+    transform: skewX(10deg);
+}
+
+@media (min-width: 576px){
+    style.contacto {
+        margin-top: 0px;
+    }
+}
