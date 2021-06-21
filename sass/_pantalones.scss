@@ -1,10 +1,9 @@
 body {
-	background-image: linear-gradient(to right, rgb(243, 122, 142), rgb(247, 247, 233));
-	font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(to right, rgb(243, 122, 142), rgb(253, 253, 246));
+    font-family: 'Courier New', Courier, monospace;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 @keyframes movimiento {

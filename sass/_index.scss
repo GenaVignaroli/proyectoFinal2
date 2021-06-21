@@ -30,28 +30,16 @@ body {
     "img p2"
     "img none";
     align-items: center;
+    align-content: center;
 }
 
 
 .section_img {
     grid-area: img;
-    width: 520px;
-    height: 420px;
-    padding-right: 45px;
-    padding-left: 100px;
-    padding-top: 45px;
-    padding-bottom: 45px;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-    transition: all 1s;
+    width: 50vw ;
+    height: 60vh;
+    justify-content: center ;
     align-items: center;
-}
-
-.section_img:hover {
-    width: 600px;
-    height: 500px;
-
 }
 
 .divGrande {
